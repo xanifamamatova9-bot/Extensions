@@ -1,0 +1,97 @@
+/* BODY */
+body {
+  width: 350px;
+  min-height: 260px;
+  background: linear-gradient(145deg, #e3f2fd, #ffffff);
+  font-family: "Poppins", sans-serif;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+/* Sarlavha */
+.title {
+  text-align: center;
+  color: #0d47a1;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+
+/* Katta container */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* KUN BLOKI */
+.day-box {
+  background: linear-gradient(135deg, #bbdefb, #90caf9);
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+  transition: 0.25s ease;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.day-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* KUN NOMI */
+.day-header {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+/* HAR BIR DARS KARTOCHKASI */
+.lesson-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  border-left: 5px solid #1e88e5;
+  transition: 0.25s ease;
+}
+
+/* Hover animatsiya */
+.lesson-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.20);
+}
+
+/* Fan nomi */
+.lesson-name {
+  font-weight: 700;
+  font-size: 15px;
+  color: #0d47a1;
+  margin-bottom: 4px;
+}
+
+/* Soat */
+.lesson-time {
+  font-size: 13px;
+  color: #1e88e5;
+  font-weight: 600;
+}
+
+/* Qolgan ma’lumotlar */
+.lesson-meta {
+  font-size: 12px;
+  color: #444;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+/* Yuklanish matni */
+.loading {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
